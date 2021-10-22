@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+*::before ,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:16px ;
+    line-height: 1.5;
+    font-family: 'STIX Two Text', serif;
+}
+/* header */
+.check{
+    background-color:blue;
+    font-size: 60px;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    background-color:#08154C;
+    padding:10px 0;
+    text-align: center;
+}
+.nav a{
+    font-size: 36px;
+    text-decoration: none;
+    color:green;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 900;
+}
+#color {
+    color:#ffffff;
+}
+/* .one {
+    color: #ffffff;
+} */
+.parent{
+    text-align: center;
+}
+.parent h1{
+    font-size:50px;
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+.parent h2{
+    font-size:32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 20px 0;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border:6px solid black;
+    border-radius: 5px;
+    background-color:#99D8CA;
+    box-shadow: inset 8px 8px 0px #5873E2, inset -8px -8px 0px #5873E2;
+     outline: 10px solid aqua; 
+     text-align: center;
+    transform:translate -x(-50%);
+    transform:translate -y(-50%);
+    margin-left: 520px;
+    margin-top:20px;
+}
+.parent-small-box{
+    width:50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+.small-box{
+    width: 30px;
+    height: 30px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    /* margin: 20px 60px; */
+    text-align: center;
+    margin-top: 20px;
+    margin-left:100px;
+    margin-right: 50px;
+    /* text-transform: middle; */
+}
+span{
+    margin-left:35px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.box-1{
+     background-color:#8FFCA9;
+     margin:0 50px;
+}
+.box-2{
+    background-color:black ;
+    margin: 0 40px;
+}
+.box-3{
+   background-color:blue;
+   margin: 0 40px;
+}
+.dashed{
+    width: 600px;
+    border-bottom: 2px solid  black;
+    border-style: dotted;
+    /* margin-top: 30px; */
+    /* margin-left: 300px; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.big-box{
+    width: 660px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-bottom:40px;
+}
+.inner{
+    width: 200px;
+    height: 180px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 5px;
+    background-color: #DAE0FA;
+}
